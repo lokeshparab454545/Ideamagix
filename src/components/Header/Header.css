@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header img {
+    width: 80px;
+}
+
+.header-content {
+    display: flex;
+    gap: 40px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content-icon i {
+    font-size: 30px;
+}
+
+.content-text p {
+    color: var(--p-text-color);
+    font-size: 12px;
+}
+
+.header-region {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header-region img {
+    width: 40px;
+}
+
+.header-region i {
+    font-size: 16px;
+    color: var(--bold-color);
+}
+
+.content-text h4 {
+    font-size: 16px;
+}

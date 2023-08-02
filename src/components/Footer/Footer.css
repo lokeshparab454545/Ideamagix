@@ -1,0 +1,91 @@
+.footer-banner {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 220px;
+    gap: 16px;
+    color: white;
+}
+
+.footer-content {
+    padding: 40px 0;
+}
+
+.footer-about {
+    border-top: 1px solid var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    gap: 30px;
+}
+
+.footer-about-content p {
+    color: var(--secondary-color) !important;
+}
+
+.footer-links {
+    width: 300px;
+}
+
+.footer p {
+    color: white;
+    margin: 5px 0;
+}
+
+.footer-banner h1 {
+    margin: 8px 0;
+}
+
+.footer-banner h4 {
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+.footer-details {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-about img {
+    width: 200px;
+}
+
+.footer-copyright {
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-condn {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-content p {
+    color: var(--secondary-color);
+}
+
+.footer-content span {
+    color: var(--primary-color);
+    padding-right: 5px;
+}
+
+.links {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.links i {
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {}

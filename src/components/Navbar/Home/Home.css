@@ -1,0 +1,230 @@
+.home-header {
+    background-image: url('assets/banner.png');
+    background-size: cover;
+    height: 420px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Home Nav CSS*/
+.home-nav {
+    border-top: 1px solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.home-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+}
+
+span {
+    color: rgb(255, 20, 39);
+}
+
+p {
+    color: var(--p-text-color);
+    font-size: 14px;
+}
+
+h2 {
+    letter-spacing: 0.5px;
+}
+
+.borderBtm {
+    border-bottom: 1px dashed var(--primary-color);
+}
+
+
+/* Home Overview CSS*/
+.overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.overview img {
+    width: 40%;
+}
+
+.overview-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+/* Home Side*/
+.home-side {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 300px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.home-side h2 {
+    color: var(--primary-color);
+}
+
+.home-side input {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: var(--p-text-color);
+}
+
+.home-side textarea {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    outline: none;
+    width: 250px;
+    height: 90px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: var(--p-text-color);
+    font-size: 14px;
+}
+
+.home-side input::placeholder {
+    color: var(--p-text-color);
+}
+
+.home-side input:-ms-input-placeholder {
+    color: var(--p-text-color);
+}
+
+.home-side input::-ms-input-placeholder {
+    color: var(--p-text-color);
+}
+
+.home-side .btn {
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* Home Component CSS */
+
+.home-section {
+    display: flex;
+    gap: 20px;
+}
+
+.home-space p {
+    padding: 6px 0;
+}
+
+.home-space ul {
+    margin-left: 20px;
+    list-style: circle;
+}
+
+/* Home Stories*/
+.home-stories {
+    width: 720px;
+
+}
+
+/* Doctor Card CSS */
+.doctor {
+    margin-top: 20px;
+}
+
+.doctor-details {
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.doctor-card {
+    width: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 18px;
+}
+
+.doctor-details h4 {
+    color: var(--pink-text-color);
+    margin: 5px 0;
+}
+
+.doctor-card h5 {
+    color: black;
+}
+
+.doctor-img {
+    width: 280px;
+    height: 180px;
+    background-color: #ffdde3;
+}
+
+/* Hospital Card CSS */
+.hospital {
+    margin-top: 20px;
+}
+
+.hospital-details {
+    text-align: center;
+}
+
+.hospital-card {
+    width: 320px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    border: 1px dashed var(--pink-text-color);
+    border-radius: 8px;
+    padding-bottom: 18px;
+}
+
+.hospital-details h4 {
+    color: var(--pink-text-color);
+    margin: 5px 0;
+}
+
+.hospital-card h5 {
+    color: black;
+}
+
+.hospital-card img {
+    width: 280px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.hospital-details a {
+    color: var(--pink-text-color);
+    text-decoration-line: underline;
+}
+
+.hospital-details h6 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    .home-side {
+        display: none;
+    }
+}
